@@ -1,0 +1,105 @@
+body{
+	background-image: url(../images/beijing.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: 0px -50px;
+}
+
+.container{
+            width: 30%;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 10%;
+            text-align: center;
+            background: #00000090;
+            border-radius: 3px;
+            box-shadow:  -3px -3px 8px 3px rgb(197, 169, 169);
+            padding: 20px 50px;
+        }
+		
+		  .button,.item,.code{
+		 margin-top: 15px;
+		 display: inline-flex;
+		 }
+		.button,.item,.code> span{
+		  margin-left:20px ;
+		 float: left;
+		 font-size: 18px;
+		 color: #ffffff;
+		 }
+		 
+		  input{
+		 width: 180px;
+		 font-size: 18px;
+		 border: 0;
+		 border-bottom: 2px solid rgb(134, 133, 133);
+		 padding: 5px 10px;
+		 background: #99989800;
+		 color: #fff;
+		 }
+		 input:focus{
+		     outline: none;
+		 }
+		 form> button{
+		 margin-top: 15px;
+		 width: 180px;
+		 height: 30px;
+		 font-size: 20px;
+		 font-weight: 400;
+		 color: #fff;
+		 border: 0;
+		 border-radius: 15px;
+		 background-image: linear-gradient(to right, #cf9696 0%, #e67065 100%);
+		 }
+		 form> button:hover{
+		     box-shadow:  -1px -1px 8px 3px rgb(197, 169, 169);
+		 
+		 }
+
+#login-box{
+	background-color: #00000068;
+	border-radius: 13px;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 80px;
+	width: 350px;
+	height: 600px;
+}
+
+#login-box h1{
+	padding-top: 50px;
+	color: #ffffff;
+}
+
+#login-box .input-box{
+	margin-top: 25px;
+}
+#login-box .input-box input{
+	border: none;
+	background: none;
+	border-bottom: #FFFFFF 2px solid;
+	padding: 5px 10px;
+	outline: none;
+	color: #FFFFFF;
+}
+
+#login-box button{
+	line-height:30px;
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-right: 10px;
+	width: 130px;
+	height: 30px;
+	border-radius:13px ;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	color: #FFFFFF;
+}
+
+#login-box button:hover{
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+#login-box .input-box i{
+	color: #FFFFFF;
+}
